@@ -10,3 +10,7 @@
 
 Idea ~1~ 3 is neat! Very interesting way to use the dataset! Note that Wikipedia languages are not tightly coupled with countries (some languages have a more one-to-one relationship with a country than other languages). It might be difficult to isolate countries/cultures when you consider that a language-specific Wikipedia article can be read from all around the globe
 
+### RESEARCH QUESTION
+
+- Which countries are culturally related according to wikipedia page views?
+
