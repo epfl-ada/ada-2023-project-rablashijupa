@@ -18,6 +18,9 @@ Idea ~1~ 3 is neat! Very interesting way to use the dataset! Note that Wikipedia
 
 None
 
+### IDEA Blanche
+Idea 1: Social media and self-education practices in crisis period
+Based on the assumption that people spent more time on social networks during the Covid period, with fewer real social contacts, it would be interesting to understand whether the increased time people spent on social media platforms influenced the type of information they were interested in and shaped their points of interest. The goal would be to study the evolution of their centers of interest and see if there is a correlation between what they see on social networks and their educational practices. The project operates under the assumption that people use platforms like Wikipedia for self-education as it is a digital encyclopedia. To achieve this, the project will analyze a dataset of tweets (https://osf.io/qj7c3/?view_only=2df72913b52a4aa792d8391a06d5b7d3) from various regions during the Covid period and explore potential correlations with the topics retrieved in these tweets through sentiment analysis and educational practices on Wikipedia (page views on article with related topics).
 
-
-
+Idea 2: Covid-19 as an instrumental variable 
+Monks are known to be very thoughtful people, with a keen eye for philosophy and personal development. Is it their deprivation of certain social practices that is linked to this way of life? During Covid, everyone has been able to experience certain aspects of this life being cut off from the world in some way. Is there a link between movement deprivation and personal development, questioning and people's interest in philosophy? We could classify a number of articles on philosophical or personal development topics and study their click rate. We could then see whether the countries with the most severe deprivation policies are the ones where people are most interested in these subjects. We could also study how long people's interest in these subjects persists after the end of covid. All in all, the goal would be to use Covid 19 as an instrumental variable to study the causal relationship between deprivation of certain human contacts and people's interest in personal development and self-reflection.
