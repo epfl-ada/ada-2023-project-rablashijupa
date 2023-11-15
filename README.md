@@ -8,11 +8,11 @@ This project aims at identifying the extent to which Wikipedia pageview trends a
 - Look for similar patterns across groups of countries. 
 
 ## Research questions:
-- To What Extent are Cultural Values, as defined by Hofstede’s dimensions, reflected in Wikipedia pageview trends?
-- Do Wikipedia pageview trends reveal information about cultural similarities between different countries?
-- Have cultural similarities between countries changed as a result of the COVID 19 pandemic?
+- To What Extent are Cultural Values, as defined by Hofstede’s dimensions, reflected in Wikipedia pageview trends ?
+- Do Wikipedia pageview trends reveal information about cultural similarities between different countries ?
+- Have cultural similarities between countries changed as a result of the COVID 19 pandemic ?
 - Are there any interesting trends in countries' interests over the 3 years (before and during Covid) ? 
-- Is there a correlation between cultural interests and technological access?
+- Is there a correlation between cultural interests and technological access ?
 
 ## Additional datasets:
 - Datasets to make a correlation between cultural interests and technological access :
