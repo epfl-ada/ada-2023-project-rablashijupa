@@ -3,9 +3,9 @@
 ## Abstract: 
 Hofstede cultural dimensions model, originally published in the 1970s, is a key tool for understanding cultural differences among countries. The cultures of each country are characterised by 6 scores : “Power Distance”, “Uncertainty Avoidance”, “Masculinity-Femininity”, “Long Term Orientation”, “Individualism”, “Indulgence”. 
 This project aims at identifying the extent to which Wikipedia pageview trends across countries reflect the cultural values defined by Hofstede. Culture being defined as a set of values firmly anchored within a group of people, we will assume that each country's culture is stable over a 3-year window. We will thus:
-Link some of the topics to one of the dimensions of the Hofstede model. For example, “Indulgence” dimension can be linked to the topics “Culture.Food and drink” (culinary practices often reflect indulgence or restraint) or “Culture.Media.Entertainment”.
-Compare the pageviews of each country on the topics related to each dimension to understand whether Wikipedia searches reflect the cultural values of these countries. 
-Look for similar patterns across groups of countries. 
+ - Link some of the topics to one of the dimensions of the Hofstede model. For example, “Indulgence” dimension can be linked to the topics “Culture.Food and drink” (culinary practices often reflect indulgence or restraint) or “Culture.Media.Entertainment”.
+- Compare the pageviews of each country on the topics related to each dimension to understand whether Wikipedia searches reflect the cultural values of these countries. 
+- Look for similar patterns across groups of countries. 
 
 ## Research questions:
 To What Extent are Cultural Values, as defined by Hofstede’s dimensions, reflected in Wikipedia pageview trends?
@@ -32,7 +32,7 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 Scrap data on wikipedia pageviews for a longer period
 Normalise the number of pageviews for a topic by the number of articles in this specific topic
 
-Step 1: Cultural Value Reflection:
+### Step 1: Cultural Value Reflection:
 Perform statistical analyses to compare Wikipedia pageview trends with Hofstede’s cultural dimensions. More specifically, we can use Pearson or Spearman correlation coefficients to assess the strength and direction of the relationship between Hofstede’s cultural dimensions and Wikipedia pageview patterns. This will help in determining if there’s a statistically significant correlation between cultural values and online browsing behaviour.
 ANOVA (Analysis of Variance) can be used to determine if there are statistically significant differences in Wikipedia pageviews between different countries.
 
