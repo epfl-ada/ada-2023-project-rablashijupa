@@ -1,4 +1,4 @@
-# Analysing the reflection of cultural values in Wikipedia pageview trends
+# Analyzing the reflection of cultural values in Wikipedia pageview trends
 
 ## Abstract: 
 Hofstede cultural dimensions model, originally published in the 1970s, is a key tool for understanding cultural differences among countries. The cultures of each country are characterised by 6 scores : “Power Distance”, “Uncertainty Avoidance”, “Masculinity-Femininity”, “Long Term Orientation”, “Individualism”, “Indulgence”. 
