@@ -1,28 +1,75 @@
-### IDEA
+Analysing the reflection of cultural values in Wikipedia pageview trends
 
-1) The first idea does not use mobility data, nor interventions, nor covid data in general. It only analyses the Wikipedia page views and tries to find subjects that receive attention simultaneously to associate them. It will become interesting if subjects which are on the surface unrelated receive simultaneous attention. The results should be output as temporal clusters of topics where for each cluster a list of associated topics as well as a timestamp which indicate when the surge of interest happened. The more difficult part will be to explain these association and decide if they are correlated or just coincidence. The analysis should probably only be done on a country level as it is unlikely that there is correlation if two subjects receive attention but in two different countries.
+Abstract: 
+Hofstede cultural dimensions model, originally published in the 1970s, is a key tool for understanding cultural differences among countries. The cultures of each country are characterised by 6 scores : “Power Distance”, “Uncertainty Avoidance”, “Masculinity-Femininity”, “Long Term Orientation”, “Individualism”, “Indulgence”. 
+This project aims at identifying the extent to which Wikipedia pageview trends across countries reflect the cultural values defined by Hofstede. Culture being defined as a set of values firmly anchored within a group of people, we will assume that each country's culture is stable over a 3-year window. We will thus:
+Link some of the topics to one of the dimensions of the Hofstede model. For example, “Uncertainty Avoidance” dimension can be linked to the topics “Technology” or “Engineering”
+Compare the pageviews of each country on the topics related to each dimension to understand whether Wikipedia searches reflect the cultural values of these countries. 
+Look for similar patterns across groups of countries. 
 
-2) ...
+Research questions:
+To What Extent are Cultural Values, as defined by Hofstede’s dimensions, reflected in Wikipedia pageview trends?
+Do Wikipedia pageview trends reveal information about cultural similarities between different countries?
+Have cultural similarities between countries changed as a result of the COVID 19 pandemic?
+Are there any interesting trends in countries' interests over the 3 years (before and during Covid) ? 
+Is there a correlation between cultural interests and technological access?
 
-3) The idea is to characterize countries or languages, as it is the only data available. and interests in topics on Wikipedia. Also plot the interest on a timeline to view the evolution of interests in different topics in each country. Possibly draw some correlation between countries: Which countries seem to follow similar interests’ trends or which countries do not correlate at all. The idea is to characterize culturally each country based on their Wikipedia interests. This is biased as the people who read Wikipedia is often only a biased minority of a country but keeping that in mind, it could show interesting correlation patterns.
+Additional datasets:
+Digital literacy dataset (downloaded from https://tcdata360.worldbank.org/indicators/hb0649ed2?country=BRA&indicator=41400&viz=line_chart&years=2017,2019
 
-### FEEDBACK
+Internet Usage Statistics: Include data on internet access and device usage per country : ICT Access and Usage by Household and Individual (downloaded from https://stats.oecd.org/Index.aspx?DataSetCode=ICT_HH2 ) 
 
-Idea ~1~ 3 is neat! Very interesting way to use the dataset! Note that Wikipedia languages are not tightly coupled with countries (some languages have a more one-to-one relationship with a country than other languages). It might be difficult to isolate countries/cultures when you consider that a language-specific Wikipedia article can be read from all around the globe
+We could use these two datasets to make a correlation between cultural interests and technological access
 
-### RESEARCH QUESTION
+Hofstede dataset (downloaded from https://geerthofstede.com/research-and-vsm/dimension-data-matrix/)
+ We can use this dataset to see if Hofstede’s dimension are reflected in Wikipedia pageviews
 
-- Which countries are culturally related according to wikipedia page views?
+Methods to answer the research question:
+Step 0: Preprocessing 
+Language spoken in multiple countries: estimate the number of pageviews coming from each country based on a demographics dataset and internet usage statistics
+https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Statistiques
+https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
+Scrap data on wikipedia pageviews for a longer period
+Normalise the number of pageviews for a topic by the number of articles in this specific topic
 
-### ADDITIONAL DATASETS
+Step 1: Cultural Value Reflection:
+Perform statistical analyses to compare Wikipedia pageview trends with Hofstede’s cultural dimensions. More specifically, we can use Pearson or Spearman correlation coefficients to assess the strength and direction of the relationship between Hofstede’s cultural dimensions and Wikipedia pageview patterns. This will help in determining if there’s a statistically significant correlation between cultural values and online browsing behaviour.
+ANOVA (Analysis of Variance) can be used to determine if there are statistically significant differences in Wikipedia pageviews between different countries.
 
-None
+Step 2 : Cultural Similarities:
+Implement cluster analysis to identify groups of countries with similar Wikipedia browsing patterns.
+Examine shifts in these clusters pre and post the COVID-19 pandemic.
+We can use paired t-tests to determine if the differences in pageview trends pre and post COVID-19 are statistically significant
 
-### IDEA Blanche
-Idea 1: Social media and self-education practices in crisis period
+Step 3 : Trend Analysis:
+Use time-series analysis to track changes in pageview trends over the specified period.
+Perform a Difference in Difference regression to investigate any significant deviations during the pandemics and potentially get an estimation of the causal effect of Covid on the change in countries’ interests. The Control data would be the pageviews before Covid and the Treated data would be pageviews after Covid
+Time Series k-means (where we measure the similarity between two temporal sequences) : The defined clusters would be time sequences that overlap = topics that share similar pageview trends 
 
-Based on the assumption that people spent more time on social networks during the Covid period, with fewer real social contacts, it would be interesting to understand whether the increased time people spent on social media platforms influenced the type of information they were interested in and shaped their points of interest. The goal would be to study the evolution of their centers of interest and see if there is a correlation between what they see on social networks and their educational practices. The project operates under the assumption that people use platforms like Wikipedia for self-education as it is a digital encyclopedia. To achieve this, the project will analyze a dataset of tweets (https://osf.io/qj7c3/?view_only=2df72913b52a4aa792d8391a06d5b7d3) from various regions during the Covid period and explore potential correlations with the topics retrieved in these tweets through sentiment analysis and educational practices on Wikipedia (page views on article with related topics).
+Step 4 : Correlation with Technological Access:
+Compare Wikipedia pageviews statistics for mobile versus desktop 
+Analyse the relationship between technological access and the nature of Wikipedia pageviews: Cluster countries in groups according to their average ICT Access and Usage and Perform correlation analysis between pageview patterns within country clusters to understand if they have cultural similarities
 
-Idea 2: Covid-19 as an instrumental variable 
+Step 5 : Seasonality Analysis:
+Study the seasonality of the top-viewed topics for each country using autocorrelation plots, periodogram, time serie decomposition (data can be decomposed either as the sum or product of trend, seasonality and residual components) 
 
-Monks are known to be very thoughtful people, with a keen eye for philosophy and personal development. Is it their deprivation of certain social practices that is linked to this way of life? During Covid, everyone has been able to experience certain aspects of this life being cut off from the world in some way. Is there a link between movement deprivation and personal development, questioning and people's interest in philosophy? We could classify a number of articles on philosophical or personal development topics and study their click rate. We could then see whether the countries with the most severe deprivation policies are the ones where people are most interested in these subjects. We could also study how long people's interest in these subjects persists after the end of covid. All in all, the goal would be to use Covid 19 as an instrumental variable to study the causal relationship between deprivation of certain human contacts and people's interest in personal development and self-reflection.
+Proposed timeline : 
+
+17.11.22 Milestone 2 with Step 1 partly done
+23.11.22 Step 1 + 2 done 
+01.12.22 Homework 2 submission
+03.12.22  Step 3+4 done
+07.12.22 all data analysis done
+10.12.22 Beginning writing the data story
+19.12.22 Data story mostly finished, only polishing afterwards
+21.12.22 Data story done
+22.12.22 Milestone 3
+
+Organisation within the team :
+
+Shivang : 
+Julien :
+Blanche : 
+Rayan : 
+Paolo : 
+
