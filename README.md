@@ -7,14 +7,14 @@ Link some of the topics to one of the dimensions of the Hofstede model. For exam
 Compare the pageviews of each country on the topics related to each dimension to understand whether Wikipedia searches reflect the cultural values of these countries. 
 Look for similar patterns across groups of countries. 
 
-Research questions:
+## Research questions:
 To What Extent are Cultural Values, as defined by Hofstede’s dimensions, reflected in Wikipedia pageview trends?
 Do Wikipedia pageview trends reveal information about cultural similarities between different countries?
 Have cultural similarities between countries changed as a result of the COVID 19 pandemic?
 Are there any interesting trends in countries' interests over the 3 years (before and during Covid) ? 
 Is there a correlation between cultural interests and technological access?
 
-Additional datasets:
+## Additional datasets:
 Digital literacy dataset (downloaded from https://tcdata360.worldbank.org/indicators/hb0649ed2?country=BRA&indicator=41400&viz=line_chart&years=2017,2019
 
 Internet Usage Statistics: Include data on internet access and device usage per country : ICT Access and Usage by Household and Individual (downloaded from https://stats.oecd.org/Index.aspx?DataSetCode=ICT_HH2 ) 
@@ -24,8 +24,8 @@ We could use these two datasets to make a correlation between cultural interests
 Hofstede dataset (downloaded from https://geerthofstede.com/research-and-vsm/dimension-data-matrix/)
  We can use this dataset to see if Hofstede’s dimension are reflected in Wikipedia pageviews
 
-Methods to answer the research question:
-Step 0: Preprocessing 
+## Methods to answer the research question:
+### Step 0: Preprocessing 
 Language spoken in multiple countries: estimate the number of pageviews coming from each country based on a demographics dataset and internet usage statistics
 https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Statistiques
 https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
