@@ -1,9 +1,9 @@
-Analysing the reflection of cultural values in Wikipedia pageview trends
+# Analysing the reflection of cultural values in Wikipedia pageview trends
 
-Abstract: 
+## Abstract: 
 Hofstede cultural dimensions model, originally published in the 1970s, is a key tool for understanding cultural differences among countries. The cultures of each country are characterised by 6 scores : “Power Distance”, “Uncertainty Avoidance”, “Masculinity-Femininity”, “Long Term Orientation”, “Individualism”, “Indulgence”. 
 This project aims at identifying the extent to which Wikipedia pageview trends across countries reflect the cultural values defined by Hofstede. Culture being defined as a set of values firmly anchored within a group of people, we will assume that each country's culture is stable over a 3-year window. We will thus:
-Link some of the topics to one of the dimensions of the Hofstede model. For example, “Uncertainty Avoidance” dimension can be linked to the topics “Technology” or “Engineering”
+Link some of the topics to one of the dimensions of the Hofstede model. For example, “Indulgence” dimension can be linked to the topics “Culture.Food and drink” (culinary practices often reflect indulgence or restraint) or “Culture.Media.Entertainment”.
 Compare the pageviews of each country on the topics related to each dimension to understand whether Wikipedia searches reflect the cultural values of these countries. 
 Look for similar patterns across groups of countries. 
 
@@ -43,6 +43,7 @@ We can use paired t-tests to determine if the differences in pageview trends pre
 
 Step 3 : Trend Analysis:
 Use time-series analysis to track changes in pageview trends over the specified period.
+Temporal Patterns : Analyse how cultural interests change over time and during specific events
 Perform a Difference in Difference regression to investigate any significant deviations during the pandemics and potentially get an estimation of the causal effect of Covid on the change in countries’ interests. The Control data would be the pageviews before Covid and the Treated data would be pageviews after Covid
 Time Series k-means (where we measure the similarity between two temporal sequences) : The defined clusters would be time sequences that overlap = topics that share similar pageview trends 
 
@@ -72,4 +73,3 @@ Julien :
 Blanche : 
 Rayan : 
 Paolo : 
-
