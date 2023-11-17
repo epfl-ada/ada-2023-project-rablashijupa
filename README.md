@@ -67,22 +67,22 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 
 # Organisation within the team  
 
-## Paolo:
+### Paolo:
     - Gather data on demographics and internet usage statistics for different countries.
     - Estimate the number of pageviews coming from each country based on the data collected.
-## Shivang:  
+### Shivang:  
     - Collect and preprocess data on Wikipedia pageviews for a longer period.
     - Normalize the number of pageviews for a topic by the number of articles in that specific topic.
-## Julien:  
+### Julien:  
     - Perform statistical analyses comparing Wikipedia pageview trends with Hofstede's cultural dimensions.
     - Calculate Pearson or Spearman correlation coefficients to assess the relationship between cultural values and pageview patterns.
     - Use ANOVA to determine if there are significant differences in pageviews between different countries.
-## Blanche:  
+### Blanche:  
     - Implement cluster analysis to identify groups of countries with similar Wikipedia browsing patterns.
     - Analyze shifts in these clusters pre and post the COVID-19 pandemic.
     - Conduct paired t-tests to determine if the differences in pageview trends are statistically significant.
 
-## Rayan:  
+### Rayan:  
     - Use time-series analysis techniques to track changes in pageview trends over the specified period.
     - Analyze temporal patterns and how cultural interests change over time and during specific events.
     - Perform a Difference in Difference regression to investigate deviations during the pandemics and estimate the causal effect of COVID-19 on countries' interests.
