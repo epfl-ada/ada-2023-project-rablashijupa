@@ -71,4 +71,35 @@ Paolo: Demographics, Internet Usage Data,Estimate Pageviews by Country
 Shivang: Wikipedia Pageview Data, Normalize Pageviews by Topic  
 Julien: Statistical Analysis, Correlation with Cultural Dimensions, ANOVA for Country Differences  
 Blanche: Cluster Analysis, Pre & Post COVID-19 Shifts, Paired t-tests for Significance  
-Rayan: Time-series Analysis, Temporal Patterns, Difference in Difference Regression  
+Rayan: Time-series Analysis, Temporal Patterns, Difference in Difference Regression 
+
+<table class="tg" style="undefined;table-layout: fixed; width: 342px">
+<colgroup>
+<col style="width: 164px">
+<col style="width: 178px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax">Tasks</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Paolo</td>
+    <td class="tg-0lax">Demographics, Internet Usage Data,Estimate Pageviews by Country  
+  </tr>
+  <tr>
+    <td class="tg-0lax">@MrZaiko</td>
+    <td class="tg-0lax">Website design, extended Wikipedia views extraction and analysis, Data Story</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">@AttiaYoussef</td>
+    <td class="tg-0lax">Coronawiki dataset exploration/wrangling, regression analysis, difference-in-difference regression, Data Story</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">@TorgemanTarak</td>
+    <td class="tg-0lax">Plastic pollution analysis, DTW, time lagged cross correlation, Data Story</td>
+  </tr>
+</tbody>
+</table>
