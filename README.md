@@ -68,7 +68,7 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 # Organisation within the team  
 
 ### Paolo:
-    - Gather data on demographics and internet usage statistics for different countries.
+    + Gather data on demographics and internet usage statistics for different countries.
     - Estimate the number of pageviews coming from each country based on the data collected.
 ### Shivang:  
     - Collect and preprocess data on Wikipedia pageviews for a longer period.
