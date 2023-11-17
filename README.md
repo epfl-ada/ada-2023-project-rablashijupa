@@ -90,16 +90,20 @@ Rayan: Time-series Analysis, Temporal Patterns, Difference in Difference Regress
     <td class="tg-0lax">Demographics, Internet Usage Data,Estimate Pageviews by Country  
   </tr>
   <tr>
-    <td class="tg-0lax">@MrZaiko</td>
-    <td class="tg-0lax">Website design, extended Wikipedia views extraction and analysis, Data Story</td>
+    <td class="tg-0lax">Shivang</td>
+    <td class="tg-0lax"> Wikipedia Pageview Data, Normalize Pageviews by Topic  y</td>
   </tr>
   <tr>
-    <td class="tg-0lax">@AttiaYoussef</td>
-    <td class="tg-0lax">Coronawiki dataset exploration/wrangling, regression analysis, difference-in-difference regression, Data Story</td>
+    <td class="tg-0lax">Julien</td>
+    <td class="tg-0lax">Statistical Analysis, Correlation with Cultural Dimensions, ANOVA for Country Differences  </td>
   </tr>
   <tr>
-    <td class="tg-0lax">@TorgemanTarak</td>
-    <td class="tg-0lax">Plastic pollution analysis, DTW, time lagged cross correlation, Data Story</td>
+    <td class="tg-0lax">Blanche</td>
+    <td class="tg-0lax">Cluster Analysis, Pre & Post COVID-19 Shifts, Paired t-tests for Significance  </td>
+  </tr>
+ <tr>
+    <td class="tg-0lax">Rayan</td>
+    <td class="tg-0lax"> Time-series Analysis, Temporal Patterns, Difference in Difference Regression </td>
   </tr>
 </tbody>
 </table>
