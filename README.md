@@ -68,51 +68,21 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 # Organisation within the team  
 
 ##Paolo:
-
-    Step 0: Preprocessing (language spoken in multiple countries)
-    Gather data on demographics and internet usage statistics for different countries.
-    Estimate the number of pageviews coming from each country based on the data collected.
-    Refer to the provided Wikipedia statistics page (https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Statistiques) for relevant information.
-
+    - Gather data on demographics and internet usage statistics for different countries.
+    - Estimate the number of pageviews coming from each country based on the data collected.
 ##Shivang:  
-
-    - Step 0: Preprocessing (scraping data on Wikipedia pageviews)
     - Collect and preprocess data on Wikipedia pageviews for a longer period.
     - Normalize the number of pageviews for a topic by the number of articles in that specific topic.
-    - Use the provided link (https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html) to access visualization of Wikipedia pageviews per country/region/language.
-
 ##Julien:  
-
-    - Step 1: Cultural Value Reflection (statistical analyses)
     - Perform statistical analyses comparing Wikipedia pageview trends with Hofstede's cultural dimensions.
     - Calculate Pearson or Spearman correlation coefficients to assess the relationship between cultural values and pageview patterns.
     - Use ANOVA to determine if there are significant differences in pageviews between different countries.
-
 ##Blanche:  
-
-    - Step 2: Cultural Similarities
     - Implement cluster analysis to identify groups of countries with similar Wikipedia browsing patterns.
     - Analyze shifts in these clusters pre and post the COVID-19 pandemic.
     - Conduct paired t-tests to determine if the differences in pageview trends are statistically significant.
 
 ##Rayan:  
-
-    - Step 3: Trend Analysis
     - Use time-series analysis techniques to track changes in pageview trends over the specified period.
     - Analyze temporal patterns and how cultural interests change over time and during specific events.
     - Perform a Difference in Difference regression to investigate deviations during the pandemics and estimate the causal effect of COVID-19 on countries' interests.
-
-##Paolo and Blanche:  
-
-    - Step 4: Correlation with Technological Access
-    - Compare Wikipedia pageview statistics for mobile versus desktop.
-    - Analyze the relationship between technological access and the nature of Wikipedia pageviews.
-    - Cluster countries based on their average ICT access and usage and perform correlation analysis between pageview patterns within country clusters.
-
-##Shivang and Rayan:  
-
-    - Step 5: Seasonality Analysis
-    - Study the seasonality of the top-viewed topics for each country using autocorrelation plots, periodograms, and time series decomposition.
-    - Analyze the decomposition components (trend, seasonality, and residual) to understand the patterns.
-
- 
