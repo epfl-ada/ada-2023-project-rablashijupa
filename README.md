@@ -67,12 +67,6 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 
 # Organisation within the team  
 
-Paolo: Demographics, Internet Usage Data,Estimate Pageviews by Country  
-Shivang: Wikipedia Pageview Data, Normalize Pageviews by Topic  
-Julien: Statistical Analysis, Correlation with Cultural Dimensions, ANOVA for Country Differences  
-Blanche: Cluster Analysis, Pre & Post COVID-19 Shifts, Paired t-tests for Significance  
-Rayan: Time-series Analysis, Temporal Patterns, Difference in Difference Regression 
-
 <table class="tg" style="undefined;table-layout: fixed; width: 342px">
 <colgroup>
 <col style="width: 164px">
