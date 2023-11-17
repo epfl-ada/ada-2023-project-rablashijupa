@@ -85,7 +85,7 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
   </tr>
   <tr>
     <td class="tg-0lax">Shivang</td>
-    <td class="tg-0lax"> Wikipedia Pageview Data, Normalize Pageviews by Topic  y</td>
+    <td class="tg-0lax"> Wikipedia Pageview Data, Normalize Pageviews by Topic  </td>
   </tr>
   <tr>
     <td class="tg-0lax">Julien</td>
