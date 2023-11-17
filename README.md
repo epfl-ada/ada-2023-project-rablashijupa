@@ -81,7 +81,7 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 <tbody>
   <tr>
     <td class="tg-0lax">Paolo</td>
-    <td class="tg-0lax">Demographics, Internet Usage Data, Estimate Pageviews by Country  
+    <td class="tg-0lax">Demographics, Internet Usage Data, Estimate Pageviews by Country   </td>
   </tr>
   <tr>
     <td class="tg-0lax">Shivang</td>
