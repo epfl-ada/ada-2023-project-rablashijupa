@@ -7,3 +7,5 @@ navigation:
     url: /
   - title: Example
     url: example
+  - title: Test plots
+    url: /results/Step 2-2.html
