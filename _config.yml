@@ -7,5 +7,4 @@ navigation:
     url: /
   - title: Example
     url: example
-  - title: Test plots
-    url: /index.html
+
