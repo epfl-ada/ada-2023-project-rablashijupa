@@ -33,9 +33,9 @@ https://stats.wikimedia.org/wikimedia/animations/wivivi/wivivi.html
 - Scrap data on wikipedia pageviews for a longer period.
 - Normalise the number of pageviews for a topic by the number of articles in this specific topic.
 
-### Step 1: Cultural Value Reflection  
-- Perform statistical analyses to compare Wikipedia pageview trends with Hofstede’s cultural dimensions. More specifically, we can use Pearson or Spearman correlation coefficients to assess the strength and direction of the relationship between Hofstede’s cultural dimensions and Wikipedia pageview patterns. This will help in determining if there’s a statistically significant correlation between cultural values and online browsing behaviour.
-- ANOVA (Analysis of Variance) can be used to determine if there are statistically significant differences in Wikipedia pageviews between different countries.
+### Step 1: Timeseries Analysis
+- Perform statistical analyses to compare Wikipedia pageview trends for countries with each other. More specifically, we can use Pearson or Spearman correlation coefficients to assess the strength and direction of the relationship between Wikipedia pageview trend patterns. This will help in determining if there’s a statistically significant correlation between countries when looking at their browsing patterns.
+- Based on the correlation matrices for countries, perform a clustering of the country using the Louvain Algorithm.
 
 ## Step 2 : Cultural Similarities  
 - Implement cluster analysis to identify groups of countries with similar Wikipedia browsing patterns.
