@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Analyzing the reflection of cultural values in Wikipedia pageview trends
 
 ## Abstract: 
